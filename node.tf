@@ -5,7 +5,7 @@ provider "digitalocean" {
 resource "digitalocean_droplet" "node" {
   image = "ubuntu-18-04-x64"
   name = "node1"
-  region = "sgp1"
+  region = "nyc3"
   size = "s-1vcpu-1gb"
 
   ipv6 = true
